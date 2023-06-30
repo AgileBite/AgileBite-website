@@ -5,57 +5,106 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 <body>
-   
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">AgileBite</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Services</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link active" aria-current="page" href="#">Contact Us </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  </ul>
-               
-              </div>
-            </div>
-          </nav>
-        <div class="About us container-fluid" >
-            <p class="text-center" style="font-size:400%;color: chocolate;">AgileBite</p>
-            <p class="text-center" style="font-size:150%;color: chocolate;">Serving the global food community with passion and innovation. </p>
-            <p class="text-center" style="font-size:100%;color: rgb(13, 13, 13);">//conent about the company goes here </p>
-</div>
-<div class="container-fluid" style="background-color: rgb(250, 171, 87);">
-    <p class="text-center" style="font-size:300%;color: rgb(251, 251, 251);">Our Services </p>
-    <div class="Our Service ">
-        <div class="row">
-          <div class="col">
-            Column
-          </div>
-          <div class="col">
-            <img src="" class="img-thumbnail">
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+        <a class="navbar-brand" href="#">AgileBite</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading3">Contact</a>
+          </li>
           
-        </div>
-      </div>
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+        <!-- First Container : About Us  -->
+        <h4 id="scrollspyHeading1"> </h4>
+        <div class="About us container-fluid" >
+            <p class="text-center" style="font-size:400%;color: #d2691e;">AgileBite</p>
+            <p class="text-center" style="font-size:150%;color: chocolate;">Serving the global food community with passion and innovation. </p>
+            <p class="text-center" style="font-size:100%;color: rgb(13, 13, 13);padding-left: 70px;padding-right: 70px;">//Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    </p>
 </div>
 
-        
-          
-    
+<!-- Second Container : Our Services   -->
+        <h4 id="scrollspyHeading2"> </h4>
+        <div class="container-fluid" style="background-color:#d2691e; height:500px;">
+            <p class="text-center" style="font-size:300%;color: rgb(251, 251, 251);">Our Services </p>
+            <div class="Our Service ">
+                <div class="row">
+                    <div class="col">
+                        <img src="https://www.pexels.com/photo/photo-of-people-near-wooden-table-3184418/" class="img-thumbnail" style="width: 50%; height: 50%;">
+                      
+                    </div>
+                  <div class="col">
+                    <p class="text-center" style="font-size:200%;color: rgb(251, 251, 251);">Inventory Management  </p>
+                    <p class="text-center" style="font-size:200%;color: rgb(251, 251, 251);font-size: medium;padding-right: 100px;">//Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus arcu felis bibendum ut tristique et egestas quis. Sit amet nisl suscipit adipiscing bibendum est ultricies. Sit amet commodo nulla facilisi nullam vehicula. Diam in arcu cursus euismod. Sit amet porttitor eget dolor morbi non arcu risus </p>
+                  </div>
+                 
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p class="text-center" style="font-size:200%;color: rgb(251, 251, 251);">Bill Generation  </p>
+                  <p class="text-center" style="font-size:200%;color: rgb(251, 251, 251);font-size: small;">//Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus arcu felis bibendum ut tristique et egestas quis. Sit amet nisl suscipit adipiscing bibendum est ultricies. Sit amet commodo nulla facilisi nullam vehicula. Diam in arcu cursus euismod. Sit amet porttitor eget dolor morbi non arcu risus </p>
+                </div>
+                <div class="col">
+                  <img src="/templates/images/demo.jpg" class="img-thumbnail" style="width: 50%; height: 50%;"  %>
+                
+              </div>
+            </div>
+        </div>
+
+
+
+       <!-- Third  Container : Contact Us  -->
+        <h4 id="scrollspyHeading3"> </h4>
+        <div class="container-fluid" style="background-color: rgb(254, 254, 254); height: 500px;">
+            <p class="text-center" style="font-size:300%;color:#d2691e;">Contact Us  </p>
+            <div class="Our Service ">
+                <div class="row">
+                  <div class="col">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Full Name </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            
+                          </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Contact No </label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Franchise Name </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            
+                          </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Request a call back </button>
+                      </form>
+                  </div>
+                  <div class="col">
+                    <img src="https://www.pexels.com/photo/photo-of-people-near-wooden-table-3184418/" class="img-thumbnail" style="width: 50%; height: 100%;">
+                  
+                </div>
+              </div>
+              
+        </div>
+        </div>
+       
+      </div>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>
